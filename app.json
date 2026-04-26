@@ -1,0 +1,82 @@
+{
+  "expo": {
+    "name": "LifeOS",
+    "slug": "lifeos-rn",
+    "version": "1.0.0",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "lifeosrn",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.personal.lifeos.rn",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Use Face ID to quickly unlock LifeOS."
+      }
+    },
+    "android": {
+      "package": "com.personal.lifeos.rn",
+      "permissions": [
+        "READ_SMS",
+        "RECEIVE_SMS",
+        "SCHEDULE_EXACT_ALARM",
+        "POST_NOTIFICATIONS"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-local-authentication",
+      "expo-updates",
+      "expo-notifications",
+      "expo-secure-store",
+      [
+        "expo-sqlite",
+        {
+          "useSQLCipher": true,
+          "enableFTS": true
+        }
+      ],
+      "expo-background-task",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "android": {
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 76
+          }
+        }
+      ],
+      "expo-sharing",
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "otaManifestUrl": "https://raw.githubusercontent.com/belinzenewtone/life-os-react-native-refresh/master/ota/manifest.json",
+      "binaryVersionEndpointUrl": "https://raw.githubusercontent.com/belinzenewtone/life-os-react-native-refresh/master/ota/binary-version.json"
+    }
+  }
+}

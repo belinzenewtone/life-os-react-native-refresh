@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-04-23T07:55:16.448Z",
+  "appVersion": "1.0.0",
+  "runtimePolicy": "appVersion",
+  "channels": {
+    "development": "development",
+    "staging": "staging",
+    "production": "production"
+  },
+  "notes": "Use EAS Update to publish channel-specific updates. Keep runtime compatibility with appVersion policy."
+}

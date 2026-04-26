@@ -1,0 +1,36 @@
+env: load .env
+env: export EXPO_PUBLIC_ASSISTANT_PROXY_URL EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY EXPO_PUBLIC_SUPABASE_URL
+Starting project at C:\Users\BELINZE NEWTONE\Downloads\life-os-react-native-refresh-master\life-os-react-native-refresh-master
+Using src/app as the root directory for Expo Router.
+Starting Metro Bundler
+
+Tunnel connected.
+Tunnel ready.
+Waiting on http://localhost:8082
+Logs for your project will appear below.
+Android node_modules\expo-router\entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Android Bundled 2309ms node_modules\expo-router\entry.js (2001 modules)
+ ERROR  [Error: Uncaught (in promise, id: 0) Error: Call to function 'NativeDatabase.execAsync' has been rejected.
+→ Caused by: no such column: "outstanding_amount"] 
+
+Call Stack
+  construct (<native>)
+  apply (<native>)
+  _construct (node_modules\@babel\runtime\helpers\construct.js)
+  Wrapper (node_modules\@babel\runtime\helpers\wrapNativeSuper.js)
+  construct (<native>)
+  _callSuper (node_modules\@babel\runtime\helpers\callSuper.js)
+  constructor (node_modules\expo-modules-core\src\errors\CodedError.ts)
+ ERROR  [Error: Uncaught (in promise, id: 1) Error: Call to function 'NativeDatabase.execAsync' has been rejected.
+→ Caused by: no such column: "outstanding_amount"] 
+
+Call Stack
+  construct (<native>)
+  apply (<native>)
+  _construct (node_modules\@babel\runtime\helpers\construct.js)
+  Wrapper (node_modules\@babel\runtime\helpers\wrapNativeSuper.js)
+  construct (<native>)
+  _callSuper (node_modules\@babel\runtime\helpers\callSuper.js)
+  constructor (node_modules\expo-modules-core\src\errors\CodedError.ts)
+Android src\core\data\database\client.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Android Bundled 695ms src\core\data\database\client.ts (727 modules)

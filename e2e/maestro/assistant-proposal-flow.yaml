@@ -1,0 +1,13 @@
+appId: com.personal.lifeos.rn
+---
+- launchApp
+- tapOn: "Assistant"
+- assertVisible: "Assistant"
+- tapOn: "Ask assistant..."
+- inputText: "Remind me to submit weekly report tomorrow morning"
+- tapOn: "Propose"
+- assertVisible: "Proposal"
+- tapOn: "Confirm"
+- assertVisible: "Applied."
+- tapOn: "Tasks"
+- assertVisible: "Task Manager"

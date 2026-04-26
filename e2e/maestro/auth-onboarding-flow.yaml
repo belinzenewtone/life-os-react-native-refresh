@@ -1,0 +1,10 @@
+appId: com.personal.lifeos.rn
+---
+- launchApp
+- assertVisible: "LifeOS"
+- assertVisible: "Sign in to your digital sanctuary"
+- tapOn: "Continue"
+- assertVisible: "Welcome to LifeOS"
+- tapOn: "Finish onboarding"
+- assertVisible: "Good morning."
+- assertVisible: "Your digital sanctuary is ready."

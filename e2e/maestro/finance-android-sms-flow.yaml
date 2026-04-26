@@ -1,0 +1,12 @@
+appId: com.personal.lifeos.rn
+---
+- launchApp
+- tapOn: "Finance"
+- assertVisible: "Money OS"
+- assertVisible: "Import health"
+- tapOn: "Import SMS"
+- assertVisible: "Recent Activity"
+- tapOn: "Profile"
+- tapOn: "Settings"
+- tapOn: "SMS diagnostics"
+- assertVisible: "SMS Diagnostics"

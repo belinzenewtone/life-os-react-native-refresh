@@ -1,0 +1,8 @@
+appId: com.personal.lifeos.rn
+---
+- launchApp
+- tapOn: "Finance"
+- assertVisible: "Money OS"
+- assertVisible: "Import health"
+- tapOn: "Refresh Cloud"
+- assertVisible: "Recent Activity"

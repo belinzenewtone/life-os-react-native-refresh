@@ -1,0 +1,14 @@
+appId: com.personal.lifeos.rn
+---
+- launchApp
+- assertVisible: "Good morning."
+- tapOn: "Finance"
+- assertVisible: "Money OS"
+- tapOn: "Calendar"
+- assertVisible: "Calendar"
+- tapOn: "Assistant"
+- assertVisible: "Assistant"
+- tapOn: "Profile"
+- assertVisible: "Profile"
+- tapOn: "Home"
+- assertVisible: "Good morning."

@@ -1,0 +1,9 @@
+{
+  "minimumVersion": "1.0.0",
+  "latestVersion": "1.0.0",
+  "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.personal.lifeos.rn",
+  "iosStoreUrl": "https://apps.apple.com/app/id0000000000",
+  "forceUpgradeMessage": "A new app version is required to continue syncing and receiving updates.",
+  "optionalUpgradeMessage": "A newer app build is available with native improvements and stability updates.",
+  "generatedAt": "2026-04-23T07:55:16.448Z"
+}
